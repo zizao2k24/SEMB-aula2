@@ -1,0 +1,19 @@
+/**/
+#include <stdio.h>
+float M, A, B;
+
+int main()
+{
+  while (1)
+  {
+      printf("\n\nPrograma de soma. \n");
+      printf("entre com o primeiro numero: ");
+      scanf("%f", &A);
+      printf("entre com o segundo numero: ");
+      scanf("%f", &B);
+      M = (A + B)/2;
+      printf("a media é: %f", M);
+      
+     
+  }
+}
